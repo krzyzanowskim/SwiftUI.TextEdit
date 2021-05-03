@@ -1,9 +1,9 @@
 
 # SwiftUI TextEdit View
 
-A proof-of-concept implementation of editable text component in SwiftUI using CoreText for text layout. 
+A proof-of-concept text edit component in SwiftUI & CoreText. No UIKit, No AppKit, no UITextView/NSTextView/UITextField involved.
 
-Due to SwiftUI limitations (as of May 2021) it's not possible to handle keystrokes just with SwiftUI. To overcome this limitation, the `UIKeyboardViewController` is responsible for handling keys and forward to SwiftUI codebase.
+*Note* Due to SwiftUI limitations (as of May 2021) it's not possible to handle keystrokes just with SwiftUI. To overcome this limitation, the `UIKeyboardViewController` is responsible for handling keys and forward to SwiftUI codebase.
 
 If you have questions or want to reach to me, use this thread: https://twitter.com/krzyzanowskim/status/1269402396217745410
 
