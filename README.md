@@ -13,7 +13,8 @@ Due to SwiftUI limitations (as of May 2021) it's not possible to handle keystrok
   
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![TextEdit 2021-05-03 19_00_33](https://user-images.githubusercontent.com/758033/116907452-de751980-ac41-11eb-9595-7a47f1e9a4fe.gif)
+
 
   
 ## Usage/Examples
