@@ -5,6 +5,8 @@ A proof-of-concept implementation of editable text component in SwiftUI using Co
 
 Due to SwiftUI limitations (as of May 2021) it's not possible to handle keystrokes just with SwiftUI. To overcome this limitation, the `UIKeyboardViewController` is responsible for handling keys and forward to SwiftUI codebase.
 
+If you have questions or want to reach to me, use this thread: https://twitter.com/krzyzanowskim/status/1269402396217745410
+
 ## Authors
 
 [Marcin Krzyzanowski](http://krzyzanowskim.com)
