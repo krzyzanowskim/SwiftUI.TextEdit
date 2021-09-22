@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7575AD4F264055BD007B28DE /* TextEdit in Frameworks */ = {isa = PBXBuildFile; productRef = 7575AD4E264055BD007B28DE /* TextEdit */; };
-		7575AD5126405664007B28DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7575AD5026405664007B28DE /* AppDelegate.swift */; };
+		7575AD5126405664007B28DE /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7575AD5026405664007B28DE /* App.swift */; };
 		75EDB9A124840616007483FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EDB99F24840616007483FF /* LaunchScreen.storyboard */; };
 		75F96CD3264054FB00120ED2 /* TextEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F96CD2264054FB00120ED2 /* TextEditingView.swift */; };
 		75F96CD52640550600120ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F96CD42640550600120ED2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7575AD5026405664007B28DE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7575AD5226405718007B28DE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7575AD5026405664007B28DE /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		75DC27722640553F001C4252 /* TextEdit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TextEdit; path = ..; sourceTree = "<group>"; };
 		75EDB99124840614007483FF /* TextEditSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEditSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EDB9A024840616007483FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,8 +40,7 @@
 			children = (
 				75DC27722640553F001C4252 /* TextEdit */,
 				75F96CD42640550600120ED2 /* Assets.xcassets */,
-				7575AD5226405718007B28DE /* Info.plist */,
-				7575AD5026405664007B28DE /* AppDelegate.swift */,
+				7575AD5026405664007B28DE /* App.swift */,
 				75F96CD2264054FB00120ED2 /* TextEditingView.swift */,
 				75EDB99F24840616007483FF /* LaunchScreen.storyboard */,
 				75EDB99224840614007483FF /* Products */,
@@ -143,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7575AD5126405664007B28DE /* AppDelegate.swift in Sources */,
+				7575AD5126405664007B28DE /* App.swift in Sources */,
 				75F96CD3264054FB00120ED2 /* TextEditingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TextEdit/TextEdit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TextEdit.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67RAULRX93;
@@ -308,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TextEdit/TextEdit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TextEdit.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67RAULRX93;
